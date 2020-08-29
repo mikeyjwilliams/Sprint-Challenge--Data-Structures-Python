@@ -9,14 +9,17 @@ class RingBuffer:
     def append(self, item):
         pass #! just pseudo code for now.
         # before appending... check
-        #! if capacity has space
+        #! if capacity >= 5
             #* append target item
-        #! else
-            #* remove 1st item from capacity
-            #* then append target item to tail
-
-
+            #* capacity increment
+        #! else:
+            #* starting at 0 incrementally
+            #* pass through the buffer
+            #* overwriting the old w/ new value given
+            #* then increment pointer to next item
+            #* to repeat
 
 
     def get(self):
         pass
+        #!
