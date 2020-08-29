@@ -22,4 +22,7 @@ class RingBuffer:
 
     def get(self):
         pass
-        #!
+        #! if capacity is empty:
+            #* return empty buffer
+        #! else:
+            #* return the list
